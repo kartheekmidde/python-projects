@@ -1,0 +1,1 @@
+print("Sales module initialized", __name__)
