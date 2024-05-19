@@ -9,7 +9,7 @@ elif temperatute > 20:
     print("It is nice")
 else:
     print("It is cold")
-print("Done") 
+print("Done")
 
 
 # Ternary operator
@@ -43,7 +43,7 @@ print("-" * 20 + "\n For Loops \n" + "-" * 20)
 # range(3) from 0 to 2
 # range(1, 4) from 1 to 3 and 4 excluded
 # range(1, 10, 2) step is 2 from 1 to 10, as long as it is below 10 - 10 excluded
-for number in range(1, 9, 2): # 
+for number in range(1, 9, 2):
     print("Attempt", number, number * ".")
 
 # For Else (break else)
@@ -54,7 +54,7 @@ for number in range(3):
     if successful:
         print("successful")
         break
-else: # control comes in when it does not break
+else:  # control comes in when it does not break
     print("Attempted 3 times and failed")
 
 
@@ -70,7 +70,7 @@ print("-" * 20 + "\n Iterable \n" + "-" * 20)
 n = 5
 print(type(5))
 print(type(range(5)))
-# range object is iterable 
+# range object is iterable
 # strings are iterable
 # lists are iterable
 
@@ -87,7 +87,7 @@ number = 100
 while number > 0:
     print(number)
     number //= 2
-    
+
 command = ""
 # while command.lower() != "quit":
 #     command = input(">")
@@ -109,5 +109,5 @@ count = 0
 for num in range(1, 10):
     if num % 2 == 0:
         print(num)
-        count +=1 
+        count += 1
 print(f"We have {count} event numbers")
