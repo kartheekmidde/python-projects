@@ -1,0 +1,2 @@
+- Install Anaconda for running Jupyter notebooks
+- In the terminal, navigate to the source repository and run `jupyter notebook`. This will start the server at the specific location and open it in the browser. 
